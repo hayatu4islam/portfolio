@@ -1,15 +1,15 @@
 import './App.css';
-import Menu from './pages/Menu';
+import Banner from './pages/Banner';
+import Menu from "./pages/Menu";
 
 function App() {
   return (
     <div className="App">
-       <div className="super-container">
-      <div className="App-header">
-       <Menu />
-
-        
+      <div className="super-container">
+        <Menu />
       </div>
+      <div className="App-header">
+        <Banner />
       </div>
     </div>
   );
