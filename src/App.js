@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './pages/Banner';
 import Menu from "./pages/Menu";
+import Quote from './pages/Quote';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="App-header">
         <Banner />
       </div>
+      <div><Quote /></div>
     </div>
   );
 }
